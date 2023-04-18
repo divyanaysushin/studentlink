@@ -1,0 +1,533 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ background-color:rgba(52,58,64,255); 
+  
+}
+ *{
+  box-sizing: border-box;
+  
+}
+body h2{
+  font-size: 3rem;
+  color: white;
+ font-family: 'Cinzel', serif;
+}
+
+body h3{
+  font-size: 36px;
+  color: white;
+ font-family: 'kalam', serif;
+}
+
+
+  .baner{
+    background-image: url('imgs/main2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height: 900px;
+    background-size: cover;
+    /* min-height: 750px; */
+   min-height:100vh;
+    /* width:100%;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    filter: brightness(19%);
+    opacity: .9;
+    z-index: -1;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */ 
+   
+  }
+
+
+
+   .baner .overlay {
+    height: 100%;
+    background: rgba(33, 37, 41, 0.85);
+   
+    display: flex;
+    
+    align-items: center;
+    
+       
+    justify-content: center;
+    
+    flex-direction: column;
+
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:0%;
+    left: 0;
+  } 
+   
+  .baner-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    opacity: .8;
+    color: #343a40;
+  }
+
+
+
+.about{
+    position: absolute;
+    top:465px;
+    left: 0px; 
+    background-color:rgba(52,58,64,255);
+    height: auto;
+    width:100% ;
+   }  
+
+.head h2{ text-align: center;}
+    
+
+  .about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+   padding-left: 70px;
+   padding-right: 40px;
+    line-height: 28px;
+    text-align: justify;
+  }
+
+
+  @media(max-width:575px)
+  {
+  
+    #about{
+      position: absolute;
+      top:500px;
+      left: 0px; 
+      background-color:rgba(52,58,64,255);
+      height:800px;
+      width:100% ;
+     }  
+  
+  .about h2{margin-top: -10px;}
+  .about p{
+    text-align: justify;
+    padding-left: 0px;
+     padding-right: 0px;
+  }
+  .about-b{
+    height: 500px;
+  }
+  
+  }
+
+  .gallery {
+    background-color:rgba(52,58,64,255);
+    height:auto;
+    width:100%;
+    position:absolute;
+    top:964px;
+    left:0px;
+
+  }
+  .gallery h2{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom:50px;
+  }
+  
+  .gallery {
+    margin: 0;
+  }
+  
+  .gallery .gallery-item {
+    padding: 0;
+    border: 1px solid #343a40;
+  }
+  
+  @media(max-width:575px)
+  {
+    .gallery{
+      top: 1513px;
+    }
+     
+      
+
+ }
+
+
+
+
+.btn{
+  
+ 
+  width: 180px;
+ } 
+
+ 
+ 
+
+  .booktext {
+    /* background:url('imgs/about-section.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:1990px;
+    left: 22%;
+  }
+  .btnbook{margin-left: 300px;
+           }
+
+
+  /* .book-table{
+    position: relative;
+   
+  } */
+  
+   /* .book-table:before {
+    content: '';
+    position:absolute;
+    top:1055px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    min-height:90vh;
+    background: url('imgs/book-table-img.jpg') ;
+    background-size: cover;
+    z-index: -1;
+    opacity: .3;
+  }  */
+   
+  /* .book-table:after {
+    content: '';
+    position: absolute;
+    top:2055px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #343a40;
+    z-index: -2;
+  }  */
+
+
+
+
+/* 
+  .book-table{
+    background-image:url('imgs/book-table-img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height: 900px;
+    background-size: cover;
+  
+   min-height:100vh;
+   
+  }  */
+
+
+
+  /* .book-table .overlay {
+    height: 100%;
+    background: rgba(33, 37, 41, 0.85);
+   
+    display: flex;
+    
+    align-items: center;
+    
+       
+    justify-content: center;
+    
+    flex-direction: column;
+
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:1959px;
+    left: 0;
+  }      */
+
+
+  /* .book-table {
+    position: relative;
+    top: 1900px;
+    left: 0px;
+  }
+  
+  .overlay:before {
+    content: '';
+    position: absolute;
+    top:1890px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('imgs/book-table-img.jpg');
+    background-size: cover;
+    z-index: -1;
+    opacity: .3;
+  }
+  
+  .overlay:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #343a40;
+    z-index: -2;
+  } */  
+   
+ 
+
+
+
+
+  /* .has-img-bg {
+    background: url('imgs/about1-section.jpg');
+    background-size: cover;
+  } */
+  
+   /* .has-bg-overlay {
+    position: relative;
+  }  */
+  
+  .has-bg-overlay:before {
+    content: '';
+    position: absolute;
+    top:1890px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('imgs/book-table-img.jpg');
+    background-size: cover;
+    z-index: -1;
+    opacity: .3;
+  }
+  
+  .has-bg-overlay:after {
+    content: '';
+    position: absolute;
+    top:1890px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #343a40;
+    z-index: -2;
+  }
+  
+  .middle-items {
+    
+    display: flex;
+   
+            flex-direction: column;
+   
+            justify-content: center;
+  }
+  
+  .section-title {
+    font-size: 4rem;
+  }
+  .has-height-lg {
+    min-height: 500px;
+  }
+
+  @media(max-width:575px)
+  {
+    .has-bg-overlay:before {
+      
+      top:2890px;
+      left: 0;
+      
+    }
+   
+    /* .has-bg-overlay:after {
+      
+      position: absolute;
+      top:3890px;
+      left: 0;
+      
+    }    */
+    
+   .booktext{
+    top: 4293px;
+    left: 1%;
+   }
+
+   .has-height-lg {
+    min-height:auto;
+
+  }
+.btnbook{
+  margin-left: 50px;
+}
+.bookbox{
+  width: 350px;
+  
+}
+
+}
+
+  
+/* -------------------------------------------------------------------- */
+.portfolio{
+  position: absolute;
+  top:2404px;
+  left:0px;
+  background-color:rgba(52,58,64,255);
+  height:auto;
+}
+.portfolio h4{
+  color: black;
+  text-transform:capitalize;
+  
+}
+.portfolio p{
+  color: red;
+  font-size:30px;
+  font-weight: bold;
+}
+.row,
+.row > .column {
+  padding:20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border:none;
+  outline:none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: rgb(216, 74, 74);
+  color: #ff214f;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #fff;
+   color: w;
+}
+
+
+@media(max-width:575px)
+{
+
+ .portfolio{
+  position:absolute;
+  top: 4965px;
+ }
+
+}
+
+
+.testimonial{ width: 100%;
+  height: 100px;
+position:absolute;
+top: 4506px;
+background-color:rgba(52,58,64,255);
+} 
+
+.testimonial h2{ color:white;
+  font-size:3rem;
+  text-align: center;}   
+
+  @media(max-width:575px)
+ { 
+  .testimonial{top:9664px;}
+  
+ }
+
+/* --------------------------------------------------------------- */
+.contact{  position: absolute;
+ top:4810px;
+  left:0px;
+  background-color:rgba(52,58,64,255);
+  height:auto;
+}
+.contact.text-light {
+  color: #f8f9fa !important;
+}
+
+.contact p{
+  color: white;
+font-size: 16px;
+
+
+}
+.contact h3{
+  font-size: 22px;
+  color: red;
+}
+
+/* .goTop { width: 40px; height: 50px; position: fixed; right: 10px; bottom: 10px; background-color: rgb(0, 96, 164); border: solid rgb(0, 96, 164) 1px; transform: translate(100px, 0px); transition: all .3s ease-in; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; color: #FFFFFF; } */
+
+@media(max-width:575px)
+
+{
+
+  .contact{  position: absolute;
+    top: 10055px;
+    left:0px;
+    background-color:rgba(52,58,64,255);
+    height:auto;
+  }
+
+ 
+
+}
+/* ----------------------------------------------------------- */
+.page-footer{ position: absolute;
+  top:5415px;
+  left: 83px;
+
+background-color:rgba(52,58,64,255);
+height:auto;
+}
+.page-footer p{
+  font-size: 16px;
+  color: white;
+}
+
+.page-footer h6{
+  font-size: 22px;
+  color:red;
+}
+
+
+@media(max-width:575px)
+{
+ .page-footer{position: absolute;
+    top: 10819px;
+    left: 40px;
+}
+}
+
